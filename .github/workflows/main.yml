@@ -40,8 +40,8 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: "fieryhenry/github-stats,fieryhenry/BCData,fieryhenry/battlecats"
-        EXCLUDED_LANGS: "java,html,smali,css,glsl,dockerfile,procfile,batchfile,shell"
+        EXCLUDED: "fieryhenry/github-stats,fieryhenry/BCData,fieryhenry/battlecats,fieryhenry/school"
+        EXCLUDED_LANGS: "java,html,smali,css,glsl,dockerfile,procfile,batchfile,shell,haskell,makefile"
         EXCLUDE_FORKED_REPOS: true
 
     # Commit all changed files to the repository
