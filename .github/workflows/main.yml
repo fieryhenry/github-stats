@@ -40,7 +40,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: "fieryhenry/github-stats,fieryhenry/BCData,fieryhenry/battlecats,fieryhenry/school"
+        EXCLUDED: "fieryhenry/github-stats,fieryhenry/BCData,fieryhenry/battlecats,fieryhenry/school,fieryhenry/dotfiles"
         EXCLUDED_LANGS: "java,html,smali,css,glsl,dockerfile,procfile,batchfile,shell,haskell,makefile"
         EXCLUDE_FORKED_REPOS: true
 
